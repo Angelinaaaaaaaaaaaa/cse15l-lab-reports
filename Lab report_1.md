@@ -1,15 +1,22 @@
-For each of the commands cd, ls, and cat, and using the workspace you created in this lab:
-
-Share an example of using the command with no arguments.
-Share an exmaple of using the command with a path to a directory as an argument.
-Share an example of using the command with a path to a file as an argument.
-So that’s 9 total examples (3 for each command). For each, include:
-
-A screenshot or Markdown code block showing the command and its output
-What the working directory was when the command was run
-A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
-You will upload your submission by publishing the page on Github Pages, then printing the page to PDF and uploading to the Lab Report 1 assignment on Gradescope.
+Command 1: cd
+![image](https://github.com/Angelinaaaaaaaaaaaa/cse15l-lab-reports/assets/115201846/e7942ecc-8cbd-4ce0-91e4-fce4bc77cd26)
+The working directory is /home.
+After I tried cd command with no arguments, I got nothing in the output because it basically does nothing.
+After I tried cd command with a path to a directory as an argument, there is nothing in the output, but the working directory is now changed. This is due to I changed the directory using the cd command.
+After I tried cd command with a path to a file as an argument, I got an error message saying that it is not a directory. It is an error because cd is used for changing directories(change to the location of directories), which is not applicable to files.
 
 
+Command 2: ls
+![image](https://github.com/Angelinaaaaaaaaaaaa/cse15l-lab-reports/assets/115201846/d2301b69-5353-4897-82d3-12a4ff6c183d)
+The working directory is /home.
+After I tried ls command with no arguments, I got lecture1 in the output because it shows what is at the location /home.
+After I tried ls command with a path to a directory as an argument, I got things in lecture1 in the output because it shows what is at the location /home/lecture1.
+After I tried ls command with a path to a file as an argument, I got lecture1/Hello.java itself because there is nothing more in this absolute location of a file.
 
+
+Command 3: cat
+![image](https://github.com/Angelinaaaaaaaaaaaa/cse15l-lab-reports/assets/115201846/2fff89ae-fb19-444f-982f-429f904c5901)
+The working directory is /home.
+After I tried cat command with no arguments, I got nothing in the output because cat command could only read each File parameter in sequence and write it to standard output, and the current working directory is /home.
+After I tried cat command with a path to a directory as an argument, I got an error message in the output because the location /home/lecture1 is a directory instead of a file.
+After I tried cat command with a path to a file as an argument, I got a Hello World message in Russian because the ls command successfully writes the text in the file.
