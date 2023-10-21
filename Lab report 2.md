@@ -19,11 +19,14 @@ This is because the `handleRequest` method handles the requests by parsing the U
 
 
 
-
 ### private key
-
-
+![image](https://github.com/Angelinaaaaaaaaaaaa/cse15l-lab-reports/assets/115201846/a2b695d3-8bac-4239-a214-3b35d658417d)
 
 ### public key
+![image](https://github.com/Angelinaaaaaaaaaaaa/cse15l-lab-reports/assets/115201846/3c5b4b06-da43-4b9b-a40a-b651dbe4eee6)
+
+![image](https://github.com/Angelinaaaaaaaaaaaa/cse15l-lab-reports/assets/115201846/2af35a65-f14b-41e9-a649-88abb21d2504)
 
 
+
+During the lab sessions, I learned more about SSH and server creation. SSH enabled me to establish secure connections with remote computers, which will be useful for accessing better hardware. Moreover, learning to create a server was exciting because it provided an interactive platform that I could build upon to create more useful servers. This week's lessons on paths, SSH, and public-private key authentication make accessing servers without traditional password authentication possible, which are skills essential for both current coursework and future projects.
