@@ -6,6 +6,47 @@
 ### `/add-message`
 ![Image](lab-report-2-images/1.png)
 
+```import java.io.IOException;
+import java.net.URI;
+
+class Handler implements URLHandler {
+    int count = 1;
+    String[] array = new String[100];
+    String output = "";
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/add-message")) {
+            String[] parameters = url.getQuery().split("=");
+            if (parameters.length == 2 && parameters[0].equals("s")) {
+                String str = String.format("%d. %s\n", count, parameters[1]);
+                array[count] = str;
+                count++;
+                output += str;
+                return output;
+            } else {
+                return "Invalid request format.";
+            }
+        } else if (url.getPath().equals("/")) {
+            for (int i = 1; i < count; i++) {
+                output += array[i];
+            }
+            return output;
+        } else {
+            return "404 Not Found!";
+        }
+    }
+}
+class NumberServer {
+    public static void main(String[] args) throws IOException {
+        if (args.length == 0) {
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+        int port = Integer.parseInt(args[0]);
+        Server.start(port, new Handler());
+    }
+}
+```
+
 `handleRequest` in the `Handler` class and `main` method in the `NumberServer` class are called.
 After the URL was generated, I added the path `/add-message` and the query `?s=How are you`. The query uses the correct format to add a string and its component contains the message I want to add, which is "How are you." 
 As a result, `currentCount` was updated to `1`, indicating the count of messages and `output` was updated to `"1. How are you"` to display the added message in a webpage.
