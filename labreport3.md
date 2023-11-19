@@ -52,6 +52,8 @@ Time: 0.008
 
 OK (1 test)
 ```
+![image](https://github.com/Angelinaaaaaaaaaaaa/cse15l-lab-reports/assets/115201846/3fba4069-c69e-4269-b83b-d3e47e2de0c7)
+
 
 ### The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 
@@ -88,8 +90,8 @@ I choose `grep` command, and  I used online search on https://www.geeksforgeeks.
 
 ### Option 1: -i (Ignore case)
 The -i option is used to perform a case-insensitive search. It allows grep to match patterns regardless of the letter casing, making it useful when you want to find matches regardless of whether they are in uppercase or lowercase.
-Angelina Zhang@AngelinaZ MINGW64 ~/Desktop/cse15l/docsearch (main)
 ```
+Angelina Zhang@AngelinaZ MINGW64 ~/Desktop/cse15l/docsearch (main)
 $ grep -i "LEGAL" technical/government/Media/*.txt
 technical/government/Media/5_Legal_Groups.txt:5 Legal Groups at 1 Locale To Serve the February 3, 2002
 technical/government/Media/5_Legal_Groups.txt:Five independent Salt Lake organizations that provide legal
