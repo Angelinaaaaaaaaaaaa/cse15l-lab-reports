@@ -27,6 +27,8 @@ To fix the code, I typed `vim TestExamples.java`. Inside the vim tool, I first p
 
 ![image](https://github.com/Angelinaaaaaaaaaaaa/cse15l-lab-reports/assets/115201846/f88bcda8-6891-4361-9569-e5655bccf986)
 
+![image](https://github.com/Angelinaaaaaaaaaaaa/cse15l-lab-reports/assets/115201846/725f8e2e-9d92-4093-828b-bafaad440d28)
+
 
 ## Step 8
 Next, to rerun the tests, we need to repeat what we did in Step 6 again.
@@ -37,9 +39,3 @@ Next, to rerun the tests, we need to repeat what we did in Step 6 again.
 To push the code to our GitHub repository, we should first type `git add ListExamples.java`. Next, type `git commit -m "your_message"` to commit the code to git. Lastly, type `git push` to push the changes to the origin. 
 ![image](https://github.com/Angelinaaaaaaaaaaaa/cse15l-lab-reports/assets/115201846/d6fe766b-234c-486b-bd53-ad1acd714441)
 
-![image](https://github.com/Angelinaaaaaaaaaaaa/cse15l-lab-reports/assets/115201846/725f8e2e-9d92-4093-828b-bafaad440d28)
-
-
-
-
-## Step 8
