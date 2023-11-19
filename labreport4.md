@@ -1,4 +1,4 @@
-# Lab Report 3
+# Lab Report 4
 
 ## Step 4
 Log into your ieng6 account: simply type `ssh cs15lfa23ab@ieng6.ucsd.edu`, but replace "ab" with your account number.
