@@ -139,7 +139,25 @@ Yes, the test passed now. Thank you for your help!
 #### TA:
 You are welcome!
 
-Step 4. All the necessary information was incorporated into the conversation above.
+Step 4
+The file & directory structure needed
+The directory is CSE15L_LAB3 and inside of this directory it contains following files that are used:
+test.sh, ArrayTests.java, ArrayExamples.java, and a lib directory which contains the JUnit test file (hamcrest-core-1.3.jar and junit-4.13.2.jar)
+
+The contents of each file before fixing the bug(showed before)
+
+The full command line (or lines) you ran to trigger the bug
+```
+bash test.sh
+```
+
+A description of what to edit to fix the bug
+1. Separator Issue in Bash Script:
+In the original bash script, the classpath separator issue arose due to the use of an incorrect separator for the Windows system. The classpath separator is ; for Windows, while it is : for Unix-like systems (including Mac). The corrected script now properly sets the CPATH variable with the appropriate separator for Windows.
+2. Reversed Method Issue in Java Code:
+The issue in the reversed method was identified as modifying the original array (arr) instead of creating a new array (newArray) with reversed elements.
+The corrected version ensures that the reversed array is constructed in newArray without altering the original input array (arr). The fix involves assigning values from arr to newArray in the correct order.
+
 
 ### Part 2 - Reflection
 
