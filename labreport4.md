@@ -21,7 +21,7 @@ We can also use `bash test.sh` instead.
 
 ## Step 7
 
-To fix the code, I typed `vim TestExamples.java`. Inside the vim tool, I first pressed `/index1` to find the place of the error. Then, I use `i` to change into the insert mode so that I can insert (or change) some content of this file. Then, I navigated to the fourth-til-last row, and fix the error by changing 1 into 2.
+To fix the code, I typed `vim TestExamples.java`. Inside the Vim tool, I first pressed `/index1` to find the place of the error. Then, I use `i` to change into the insert mode so that I can insert (or change) some content of this file. Then, I navigated to the fourth-til-last row,(from the lab I already knew the bug was at line 44 so I typed `:44 + <Enter>` then by hitting the right 6 times `<right><right><right><right><right><right>`) and fixed the error by changing 1 into 2.
 
 ![image](https://github.com/Angelinaaaaaaaaaaaa/cse15l-lab-reports/assets/115201846/6a93527d-2f3a-4590-9340-92d70001c9e0)
 
@@ -31,11 +31,11 @@ To fix the code, I typed `vim TestExamples.java`. Inside the vim tool, I first p
 
 
 ## Step 8
-Next, to rerun the tests, we need to repeat what we did in Step 6 again.
+Next, to rerun the tests, we need to repeat what we did in Step 6 again, which is `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` to compile the program and then type `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` to run the code.
 ![image](https://github.com/Angelinaaaaaaaaaaaa/cse15l-lab-reports/assets/115201846/ae3da54b-1b79-4d76-8518-aab6d6e16b9e)
 
 
 ## Step 9
-To push the code to our GitHub repository, we should first type `git add ListExamples.java`. Next, type `git commit -m "your_message"` to commit the code to git. Lastly, type `git push` to push the changes to the origin. 
+To push the code to our GitHub repository, we should first type `git add ListExamples.java` + `Enter`. Next, type `git commit -m "your_message"` + `Enter` to commit the code to git. Lastly, type `git push` + `Enter` to push the changes to the origin. 
 ![image](https://github.com/Angelinaaaaaaaaaaaa/cse15l-lab-reports/assets/115201846/d6fe766b-234c-486b-bd53-ad1acd714441)
 
